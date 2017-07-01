@@ -1,0 +1,10 @@
+<div class="col-xs-6 col-md-3">
+  <a href="#" class="thumbnail">
+      <img on-click="alteraImagemClick()" [src]="urlImage" data-toggle="tooltip" title="Click me!">  
+    </a>
+</div>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
